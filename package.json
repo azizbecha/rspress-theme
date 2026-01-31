@@ -20,6 +20,6 @@
     "lint-staged": "^16.2.7"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx,json,md}": "biome format"
+    "*": "biome check --write --no-errors-on-unmatched"
   }
 }
